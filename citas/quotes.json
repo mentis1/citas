@@ -1,0 +1,466 @@
+[
+  {
+    "quote": "Sufrimos más por la imaginación que por la realidad.",
+    "author": "Séneca."
+  },
+  {
+    "quote": "El sentido de las cosas no está en las cosas mismas, si no en nuestra actitud hacia ellas.",
+    "author": "El Principito."
+  },
+  {
+    "quote": "No soportas la soledad porque en ella te has encontrado a ti mismo.",
+    "author": "Arthur Schopenhauer."
+  },
+  {
+    "quote": "Finja que ya tiene esa cualidad, si quiere ser valiente, finja que ya lo es. Finja hasta que lo logre.",
+    "author": "Brian Tracy."
+  },
+  {
+    "quote": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que estás haciendo, tendrás éxito.",
+    "author": "Albert Schweitzer."
+  },
+  {
+    "quote": "Importa mucho más lo que tú pienses de ti mismo que lo que otros piensen de ti.",
+    "author": "Séneca."
+  },
+  {
+    "quote": "Success is not final; failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill."
+  },
+  {
+    "quote": "No es lo que tenemos, sino lo que disfrutamos lo que construye nuestra abundancia.",
+    "author": "Epicuro."
+  },
+  {
+    "quote": "Cuando uno está pasando por un mal momento y tiene que tomar una decisión que es arriesgada, el solo hecho de verle sonreír lo puede cambiar todo.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Lo importante no es lo que se dice, sino cómo se dice y qué reacciones provoca.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "El mensaje no es lo que uno dice, sino lo que la gente entiende.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "El mensaje que emites no depende de lo que dices o dejas de decir, sino de lo que escucha y entiende la gente.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Lo importante no es lo que dices, sino el efecto que produces, el resultado que alcanzas con tus palabras y gestos.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "El primer requisito para ser un buen orador es ser una buena persona.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Lo que de verdad importa es lo que los demás entiendan y asuman como cierto, como verdad.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "No te tomes nada personalmente. Nada de lo que los demás hacen es por ti. Lo que los demás dicen y hacen es una proyección de su propia realidad, sus propios sueños.",
+    "author": "Miguel Ruiz (Los cuatro acuerdos)."
+  },
+  {
+    "quote": "Tu visión se hará más clara solo cuando puedas ver dentro de tu corazón. Quien mira hacia afuera, sueña. Quien mira hacia adentro, despierta.",
+    "author": "Carl Gustav Jung."
+  },
+  {
+    "quote": "Los sentimientos a veces son difíciles de descubrir, y muchas veces son más difíciles de reconocer. Sin embargo, tu máxima verdad se encuentra escondida en tus más profundos sentimientos.",
+    "author": "Neale Donald Walsch (Conversaciones con Dios I)."
+  },
+  {
+    "quote": "No se puede tener la sensación de existir sin tener también la sensación de tener que morir.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "De la misma manera, resulta igualmente imposible pensar que uno va a morir, sin pensar al mismo tiempo en lo fantástico que es vivir.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "Lo único que necesitamos para ser buenos filósofos es la capacidad de asombro.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "La verdadera comprensión viene de dentro. Quien sabe lo que es correcto también hará lo correcto.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Sócrates."
+  },
+  {
+    "quote": "El verdadero conocimiento tiene que salir del interior de cada uno.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Sócrates."
+  },
+  {
+    "quote": "No hay nada que sea en el mundo de los sentidos, solamente se trata de un montón de cosas que surgen y perecen.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Platón."
+  },
+  {
+    "quote": "A lo mejor Platón tenía razón en que ella había visto una vez la «ardilla eterna» en el mundo de las Ideas, antes de que su alma se fuese a morar a un cuerpo.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Platón."
+  },
+  {
+    "quote": "Lo que Aristóteles llama «forma de gallina», está presente en cada gallina, como las cualidades específicas de la gallina; por ejemplo, el hecho de que ponga huevos. De ese modo la propia gallina y la «forma» de gallina son tan inseparables como el cuerpo y el alma.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Aristóteles."
+  },
+  {
+    "quote": "Aristóteles señaló que no existe nada en la mente que no haya estado antes en los sentidos.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Aristóteles."
+  },
+  {
+    "quote": "«Materia» es el material del que está hecha una cosa, y la «forma» son las cualidades específicas de la cosa.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Aristóteles."
+  },
+  {
+    "quote": "Delante de ti aletea una gallina, Sofía. La «forma» de la gallina es precisamente aletear, y también cacarear y poner huevos. Así pues, la «forma» de la gallina son las propiedades específicas de la especie «gallina» o, dicho de otra manera, lo que hace la gallina. Cuando la gallina muere, y con ello deja de cacarear, la «forma» de la gallina deja de existir. Lo único que queda es la «materia» de la gallina (¡qué triste, verdad, Sofía!), pero entonces, ya no es una gallina.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Aristóteles."
+  },
+  {
+    "quote": "Aristóteles señala un «justo medio»: no debemos ser ni cobardes ni temerarios, sino valientes.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Aristóteles."
+  },
+  {
+    "quote": "Para vivir una vida feliz es muy importante superar el miedo a la muerte.",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Helenismo."
+  },
+  {
+    "quote": "«La muerte no nos concierne», dijo Epicuro, así de simple. «Pues, mientras existimos, la muerte no está presente. Y cuando llega la muerte nosotros ya no existimos».",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Helenismo."
+  },
+  {
+    "quote": "Jesús dijo que el «reino de Dios» es amor al prójimo, preocupación por los débiles y los pobres y perdón para los que han ido por mal camino.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "Jesús dijo además que debemos amar a nuestros enemigos. Cuando nos golpean, no debemos devolver el golpe, qué va, debemos «poner la otra mejilla». «Y debemos perdonar, no siete veces, sino setenta veces siete».",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "Con su propio ejemplo Jesús demostró que no se debía dar la espalda a prostitutas, aduaneros corruptos y enemigos políticos del pueblo. Y fue aún más lejos: dijo que un sinvergüenza que ha despilfarrado toda la herencia paterna, o un dudoso aduanero que ha cometido fraude, es justo ante Dios si se dirige a Él y le pide perdón; tan generoso es Dios en su misericordia.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "Pero, ¿sabes?, aún fue un poco más lejos, aunque no te lo vayas a creer: Jesús dijo que esos «pecadores» son más justos ante Dios, y por ello más merecedores del perdón de Dios que los irreprochables fariseos y «ciudadanos de seda» que andaban por la vida tan orgullosos de su irreprochabilidad.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "La misericordia de Dios no tiene límites, pero es preciso que nos dirijamos a Dios suplicando su perdón.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "«Nuestro corazón está intranquilo hasta encontrar descanso en Ti».",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "Poco a poco vamos juntando esas sensaciones formando conceptos.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Locke."
+  },
+  {
+    "quote": "Pero las cualidades secundarias, tales como color y sabor, pueden variar de un animal a otro y de una persona a otra, según la constitución de los sentidos de cada uno.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Locke."
+  },
+  {
+    "quote": "Opina que el reconocimiento de los hombres de la existencia de Dios emana de la razón humana.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Locke."
+  },
+  {
+    "quote": "Te quemas en una estufa caliente, recibes una «impresión» inmediata. Más adelante puedes pensar en aquella vez que te quemaste. Es a esto a lo que Hume llama «idea». La diferencia es que la «impresión» es más fuerte y más viva que el recuerdo de la reflexión sobre el recuerdo. Podrías decir que la sensación es el original, y que la «idea» o el recuerdo de la sensación sólo es una pálida copia. Porque la «impresión» es la causa directa de la «idea» que se esconde en la conciencia.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hume."
+  },
+  {
+    "quote": "Sólo aceptó como verdadero aquello sobre lo que tenía sensaciones seguras.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hume."
+  },
+  {
+    "quote": "Cuando hablamos de «leyes de la naturaleza» o «causa y efecto», hablamos en realidad del hábito de las personas y no de lo «racional». Las leyes de la naturaleza no son ni racionales ni irracionales, simplemente son. Esto significa que la expectación de que la bola blanca de billar se ponga en marcha al ser alcanzada por la negra no es innata. No nacemos con una serie de expectativas sobre cómo es el mundo o cómo se comportan las cosas del mundo. El mundo es como es, esto es algo que vamos percibiendo poco a poco.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hume."
+  },
+  {
+    "quote": "Puede ser importante si la expectación creada nos hace sacar conclusiones precipitadas. Hume no niega que haya «leyes inquebrantables de la naturaleza», pero debido a que no somos capaces de percibir las leyes en la naturaleza en sí, corremos el riesgo de sacar conclusiones demasiado rápidamente.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hume."
+  },
+  {
+    "quote": "Ves un gato negro que cruza el camino. Un poco más tarde, ese día, te caes y te rompes el brazo. Pero no significa que haya ninguna relación causal entre esos dos sucesos.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hume."
+  },
+  {
+    "quote": "Deísmo, viene de una idea que dice que Dios creó el mundo alguna vez hace muchísimo tiempo, pero que desde entonces no ha aprecido ante el mundo. De esta forma, Dios queda reducido a un “ser superior” que sólo se da a conocer ante los hombres mediante la naturaleza y sus leyes, es decir, no se revela de ninguna manera «sobrenatural». Un tal «Dios filosófico» lo encontramos también en Aristóteles, para quien Dios era la «causa primera» o «primer motor» del universo.",
+    "author": "Jostein Gaarder (El mundo de Sofía). La Ilustración."
+  },
+  {
+    "quote": "Había que garantizar el derecho del individuo a pensar libremente y a expresar sus ideas referentes a la religión, la moral y la ética. Además, se luchó en contra de la esclavitud de los negros y a favor de un trato más humano a los delincuentes. El principio de la «inviolabilidad del individuo» fue finalmente incorporado a la «Declaración de los Derechos Humanos».",
+    "author": "Jostein Gaarder (El mundo de Sofía). La Ilustración."
+  },
+  {
+    "quote": "Lo he visto muchas veces. El gato correría detrás de la pelota. De acuerdo. Imagínate luego que eres tú la que estás sentada en una habitación y que de pronto entra una pelota rodando. ¿Tú también te irías corriendo detrás de la pelota? —Antes de hacer algo giraría la cabeza para ver de dónde viene la pelota. Sí, porque eres una persona, y buscarás indefectiblemente la causa de cualquier suceso. La ley causal forma parte, pues, de tu propia constitución.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Pero una cualidad de la razón humana siempre será el preguntar de dónde viene la pelota. Por eso preguntamos constantemente, esforzándonos al máximo por encontrar respuestas a las cuestiones últimas. Pero nunca obtenemos respuestas seguras porque la razón no tiene material para contestar.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Tan sensato resulta decir que el mundo tiene que tener un principio, como decir que no tiene tal principio, porque ambas posibilidades son igualmente imposibles de imaginar por la razón.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Sobre este tema, los racionalistas, por ejemplo Descartes, habían intentado demostrar que tiene que haber un dios simplemente porque tenemos una idea de un «ser perfecto». Otros, por ejemplo Aristóteles y Santo Tomás de Aquino, dedujeron que tiene que haber un dios porque todas las cosas tienen que tener una causa inicial.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Rechaza las dos pruebas de la existencia de Dios. Ni la razón ni la experiencia poseen ningún fundamento seguro para poder afirmar que existe un dios. Para la razón es tan probable como improbable que haya un dios. —Pero empezaste diciendo que Kant quiso salvar los fundamentos de la fe cristiana. Sí, efectivamente abre la posibilidad de una dimensión religiosa. Donde fracasan la experiencia y la razón surge un vacío que puede llenarse de fe religiosa.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Todos los seres humanos sabemos lo que está bien y lo que está mal, y lo sabemos no sólo porque lo hemos aprendido, sino porque es inherente a nuestra mente.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "La capacidad de distinguir entre el bien y el mal es tan innata como las demás cualidades de la razón.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Todos tenemos también acceso a la misma ley moral universal.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Kant formuló la ley moral como un imperativo categórico, con lo cual quiso decir que la ley moral es «categórica», es decir, válida en todas las situaciones. Además es un «imperativo», es decir, es «preceptiva» o, en otras palabras, completamente ineludible.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "No obstante, Kant formula este «imperativo categórico» de varias maneras. En primer lugar dice que «siempre debes actuar de modo que al mismo tiempo desees que la regla según la cual actúas pueda convertirse en una ley general». Hago algo tengo que asegurarme de que desearía que todos los demás hicieran lo mismo si se encontrasen en la misma situación. ¿Es eso?",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Kant también formuló el imperativo categórico diciendo que «siempre debes tratar a las personas como si fueran una finalidad en sí y no sólo un medio para otra cosa».",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Únicamente cuando cumplimos nuestra «razón práctica», que hace que podamos realizar elecciones morales, tenemos libre albedrío. Porque cuando nos doblegamos ante la ley moral somos nosotros mismos los que creamos la ley por la que nos guiamos. Sí, eso es de alguna manera verdad. Soy yo, o algo dentro de mí, la que dice que no debo comportarme mal con los demás.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kant."
+  },
+  {
+    "quote": "Ahora cada individuo tenía libertad para dar su propia interpretación de la existencia.",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Romanticismo."
+  },
+  {
+    "quote": "Los románticos opinaban que solamente el arte podía llevarnos más cerca de «lo inefable».",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Romanticismo."
+  },
+  {
+    "quote": "Tanto Descartes como Hume habían hecho una fuerte distinción entre el yo, por un lado, y la realidad extensa por el otro. También Kant había hecho una clara separación entre el «yo» que conoce, y la naturaleza «en sí». Ahora se decía que la naturaleza era un enorme yo.",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Romanticismo."
+  },
+  {
+    "quote": "Por eso Novalis dijo que «el camino secreto va hacia dentro». Pensaba que el hombre lleva todo el universo dentro y que la mejor manera de percibir el secreto del mundo es entrar en uno mismo.",
+    "author": "Jostein Gaarder (El mundo de Sofía). El Romanticismo."
+  },
+  {
+    "quote": "Para Hegel la Historia era como el curso de un río. Cada pequeño movimiento del agua en un punto dado del río está en realidad determinado por la caída del agua y por sus remolinos más arriba. Pero también está determinado por las piedras y los meandros del río justo en ese lugar donde tú lo estás mirando.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hegel."
+  },
+  {
+    "quote": "Por lo tanto, no puedes afirmar que una determinada idea sea correcta para siempre. Pero puede ser correcta en la época y el lugar en que te encuentras.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hegel."
+  },
+  {
+    "quote": "Hegel señaló que la razón es algo dinámico, por no decir un proceso. Y la «verdad» es ese proceso en sí. Porque no existe ningún criterio fuera del propio proceso histórico que pueda decidir lo que es el más «verdadero» o lo más «razonable».",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hegel."
+  },
+  {
+    "quote": "Si yo reflexiono sobre el concepto «ser», inevitablemente tendré que introducir también el concepto contrario, es decir el «no ser», pues no se puede reflexionar sobre el ser sin, acto seguido, recordarse a uno mismo que no se «es» para siempre. La tensión entre «ser» y «no ser» se disuelve en el concepto «nacimiento». Porque el que algo nazca significa en cierta manera que es y no es.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hegel."
+  },
+  {
+    "quote": "La realidad está llena de contradicciones y por lo tanto también una descripción de la realidad tendrá que estar llena de contradicciones. Te pondré un par de ejemplos: se dice que el físico nuclear danés Niels Bohr tenía una herradura colgada encima de su puerta.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Hegel."
+  },
+  {
+    "quote": "El poder de la palabra, sí, pero también el contrapoder del silencio.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Van acompañados del poder de la emoción, emoción que a su vez necesita del contrapoder de la escucha, la gran olvidada en el proceso comunicativo.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Gabriel García Márquez sostiene que el mundo se divide en dos tipos de personas: los que saben contar historias y los que no saben.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«Yes We Can» fue el eslogan de la campaña electoral de Barack Obama de 2008. Sintetizaba en una.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«Puedo prometer y prometo», acertó a decir el candidato Adolfo Suárez.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«El pastor tiene que oler a oveja», disparó en una frase de alerta el papa Francisco.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«Es efectivo, por lo que yo sé, inmediatamente, sin demora».",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "No se trata de hablar mucho, sino de planificar la comunicación, pensarla, escribirla, meditarla, corregirla y exponerla.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Demos importancia a la palabra.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Hay ríos de palabras que no dicen nada y silencios que lo explican todo.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Manipulación nuestra de la misma canción a la que habíamos recortado cualquier pausa, pegando literalmente unas a otras las palabras.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Resulta increíble que Trump haya salido indemne de todos estos tropiezos dialécticos que le hubieran costado la carrera a cualquier otro candidato de haber pronunciado aunque solo fuera una de estas.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Cerebro solo aprende si hay emoción.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«El taller del pensamiento está en el cerebro del hombre; pero la fuente de los afectos se halla solo en el manantial de su sensibilidad».",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "La emoción es la asignatura pendiente en la empresa.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "La seducción parte de un intelecto, sí, pero no se dirige a la zona racional de quien recibe el enunciado, sino a sus emociones.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "¿Y cuántos directivos de empresas hablan alguna vez con sus empleados o con sus clientes directos para conocer sus opiniones? Pocos. Solo los grandes lo hacen.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "La humildad acerca, mientras que la arrogancia distancia.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Cuando llegamos tarde a una cita también estamos comunicando con nuestra impuntualidad. Le informamos a quien espera de la poca importancia que le concedemos.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Lo privado cada vez es más estrecho y lo público más amplio. Los directores de recursos humanos ya no se limitan a ver la hoja de vida o el curriculum vitae, y a entrevistar al candidato al puesto de trabajo. Rastrean las redes sociales y descubren la verdadera personalidad de su entrevistado. Hay un software (reputation.com) que permite conocer el historial digital de las personas. Aquellas que creen que basta con borrar las barbaridades, o las indiscreciones, o las referencias personales graves a otras personas, se equivocan. El borrado sirve para.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«Si no eres gracioso, evita las bromas en tus discursos; si no eres especialmente emotivo, no exageres en lo mucho que te gustan las ancianas desvalidas; si la empatía no es lo tuyo, resalta cualidades como la seriedad o la capacidad de gestión».",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«La vida no es la que vivimos, sino la que recordamos para contarla y cómo la contamos».",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Ahora bien, el final debe ser también impactante, por lo que les recomiendo que echen también un vistazo, en estos cuatro discursos seleccionados, a su final, a ese último minuto en el que los oradores dejan el alma cargada con un mensaje de.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Con la época anterior o para llamar la atención, se cometen excesos absurdos.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "«Una cosa es modificar el protocolo y otra destruirlo, y con él las convenciones de urbanidad que lo sustentan».",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Una intervención comunicativa requiere también de un protocolo.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Como hacen los deportistas, que suelen acudir previamente a pisar el césped.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Una excesiva altura de la tribuna, por ejemplo, aleja a quien habla del auditorio, una distancia mínima, por su parte, abruma a los que están sentados en primera fila.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Intervenir, cuando se disponga a hacerlo, definitivamente entrará en un lugar que ya conoce.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "El discurso debe llevarse preparado en hojas que sean susceptibles de ser leídas en caso de emergencia, como una bajada de tensión o una alteración nerviosa.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Es muy conveniente escribir en negrita o letras mayúsculas las frases importantes del discurso.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Ya hemos dejado claro que un orador que improvisa está asumiendo unos riesgos excesivos.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Agradecimientos, se suele invertir demasiado tiempo en justificar por qué uno está allí o.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "La primera y principal condición para hacer una buena intervención es conocer a fondo la materia de la que se habla.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Por último, algo importante: eliminar las excusas. Es frecuente escuchar a algunos profesores o ponentes disculparse constantemente, con eso de que «no tengo tiempo para explicarles esto»; o «si me hubieran avisado con más tiempo lo hubiera preparado de otro modo», y frases similares.",
+    "author": "Manuel Campo Vidal (Eres lo que comunicas)."
+  },
+  {
+    "quote": "Es el panteísmo, o la filosofía unitaria —dijo él—. Es el espíritu universal de los románticos, quienes veían todo como un solo «yo».",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "La botella azul es el individualismo. Es por ejemplo la reacción de Søren Kierkegaard a la filosofía unitaria del Romanticismo. Pero también lo es otro danés contemporáneo de Kierkegaard, el famoso autor de cuentos H. C. Andersen.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "No somos solamente «hijos de nuestra época». Cada uno de nosotros también es un individuo único que vive solamente esta única vez.",
+    "author": "Jostein Gaarder (El mundo de Sofía)."
+  },
+  {
+    "quote": "«Pensador existente», es decir, un pensador que incluye toda su existencia en su reflexión filosófica.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Sí, porque también la filosofía de Buda tomó como punto de partida la existencia del hombre: érase una vez un monje que pensaba que Buda daba respuestas muy poco claras a preguntas importantes sobre lo que es el mundo y lo que es el hombre. Buda contestó con un ejemplo de un hombre herido por una flecha venenosa. El herido no preguntaría por curiosidad intelectual de qué estaba hecha la flecha, qué veneno tenía o desde qué ángulo había sido disparada. —Más bien desearía que alguien le sacara la flecha y le curase la herida.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Si te caes al agua no adoptas una postura teórica ante la cuestión de si te vas a ahogar o no. En ese caso no es ni «interesante» ni «poco interesante» si hay cocodrilos en el agua. Es cuestión de vida o muerte. —Pues sí. —Tenemos que distinguir entre la cuestión filosófica de si existe un dios y la relación del individuo con la misma cuestión.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Kierkegaard escribió: «Si puedo entender a Dios objetivamente no creo; pero precisamente porque no puedo, por eso tengo que creer.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Kierkegaard escribió: «Si puedo entender a Dios objetivamente no creo; pero precisamente porque no puedo, por eso tengo que creer. Y si quiero conservarme en la fe, tendré que cuidarme siempre de conservar la incertidumbre objetiva, de estar a 70 000 fanegas de profundidad en esta incertidumbre objetiva, y sin embargo creer».",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Porque lo esencial no es si el cristianismo es o no lo verdadero, sino si es lo verdadero para mí.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Si la religión cristiana hubiese apelado a la razón, y no a otras partes de nosotros, entonces no se habría tratado de una cuestión de fe.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Teoría de Kierkegaard sobre las tres fases en el camino de la vida. —¿Qué has dicho? —Kierkegaard opinaba que existen tres actitudes vitales diferentes. Él utiliza la palabra fases y las llama «fase estética», «fase ética» y «fase religiosa». Utiliza la palabra «fase» para marcar que se puede vivir en las fases inferiores y de pronto dar el «salto» hasta una fase superior. Pero mucha gente vive en la misma fase toda la vida. —Apuesto a que pronto llegará una explicación. Además empiezo a sentir curiosidad por saber en qué fase me encuentro yo. —Quien vive en la fase estética vive el momento y busca en todo momento conseguir el placer. Lo que.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  },
+  {
+    "quote": "Teoría de Kierkegaard sobre las tres fases en el camino de la vida.",
+    "author": "Jostein Gaarder (El mundo de Sofía). Kierkegaard."
+  }
+]

@@ -1,0 +1,285 @@
+/* Inspired by Apple's clean, minimalist, and elegant design principles */
+
+/* Base styles for a subtle, full-height background */
+html, body {
+    height: 100%; /* Asegura que html y body ocupen toda la altura */
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* Apple-like font stack */
+    color: #1d1d1f; /* Dark, legible text color */
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Opcional pero recomendado: Define el font-size base en html.
+   Un valor de 10px (o 62.5%) hace que 1rem = 10px, facilitando el cálculo.
+   Si lo omites, 1rem será por defecto 16px.
+*/
+html {
+    font-size: 18px;
+}
+
+/* --- ESTILOS DE LA PÁGINA DE BIENVENIDA (SPLASH SCREEN) --- */
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    position: fixed; /* Fija la pantalla de bienvenida sobre todo */
+    top: 0;
+    left: 0;
+    /* --- FONDO PARA LA PANTALLA DE BIENVENIDA --- */
+    background-image: url('fondo.jpg'); /* Usar tu imagen de fondo principal aquí */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.4); /* Capa oscura semitransparente sobre la imagen */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    /* ---------------------------------------------------------------------- */
+    z-index: 1000; /* Asegura que esté por encima de todo */
+    transition: opacity 0.5s ease-out; /* Suaviza la transición al ocultarse */
+}
+
+/* Eliminamos completamente .splash-image o la dejamos sin estilos si no se usa */
+.splash-image {
+    display: none; /* Oculta la imagen si aún la tienes en el HTML pero no quieres que se vea */
+    /* Puedes eliminar toda la regla .splash-image si borras el <img> del HTML */
+}
+
+
+.enter-button {
+    padding: 18px 50px; /* Botón más grande */
+    font-size: 1.5rem; /* Fuente más grande */
+    font-weight: 700; /* Más negrita */
+    border: none;
+    border-radius: 12px; /* Más redondeado */
+    cursor: pointer;
+    background-color: #ffffff; /* Botón blanco */
+    color: #1d1d1f; /* Texto oscuro */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transition: background-color 0.3s ease-in-out, transform 0.15s ease-out, box-shadow 0.3s ease-in-out;
+    text-transform: none; /* Volvemos a un estilo más estándar, menos uppercase */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque al botón */
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.enter-button:hover {
+    background-color: #f0f0f0; /* Ligero cambio de color al pasar el ratón */
+    transform: translateY(-3px); /* Efecto "elevación" */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Sombra aún más pronunciada */
+}
+
+.enter-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0;
+}
+
+/* --- ESTILOS DE LA APLICACIÓN PRINCIPAL (CITAS) --- */
+
+.main-app {
+    display: flex; /* Mantén el flex para que el body pueda centrarlo */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; /* Asegura que la app principal ocupe toda la altura */
+    padding: 20px;
+    box-sizing: border-box;
+    /* Fondo para la app principal */
+    background-image: url('fondo.jpg'); /* ¡CAMBIADO A .jpg! */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Clase para ocultar elementos con una transición suave */
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Asegura que no se pueda interactuar cuando está oculto */
+    transition: opacity 0.5s ease-out, visibility 0s 0.5s; /* Oculta después de la opacidad */
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 0.5s ease-in;
+}
+
+/* Main container for the quote, mimicking Apple's card-like elements */
+.container {
+    padding: 30px; /* Reducido un poco el padding para pantallas pequeñas */
+    max-width: 800px; /* Ancho máximo un poco más estrecho */
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco translúcido (85% de opacidad) */
+    backdrop-filter: blur(8px); /* Efecto de desenfoque detrás del contenedor, muy Apple */
+    -webkit-backdrop-filter: blur(8px); /* Para compatibilidad con Safari */
+    border-radius: 10px; /* Ligeramente menos redondeado */
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1); /* Sombra un poco más visible en fondo claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 180px; /* Reducido aún más para permitir más flexibilidad con textos cortos */
+    height: auto; /* CRÍTICO: Permite que la altura se ajuste al contenido */
+    max-height: 80vh; /* CRÍTICO: Una altura máxima para evitar que sea demasiado grande en textos excesivamente largos. Permite scroll interno. */
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 25px; /* Espacio entre la cita y los controles */
+    border: 1px solid rgba(0, 0, 0, 0.08); /* Borde un poco más visible con el fondo translúcido */
+    flex-grow: 0; /* Asegura que no intente crecer para llenar espacio, sino que se ajuste a su contenido */
+    overflow-y: auto; /* CRÍTICO: Habilita el scroll vertical si el contenido excede el max-height */
+}
+
+/* Quote text style: bold, prominent, and clear */
+.quote-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    line-height: 1.35;
+    font-weight: 700;
+    color: #1d1d1f;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+/* Author style: elegant, understated, and clearly separated */
+.quote-author {
+    font-style: normal;
+    font-size: 0.85rem;
+    color: #4a4a4a;
+    margin-top: 12px;
+    position: relative;
+    padding-top: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Decorative line separating quote and author, thin and elegant */
+.quote-author::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 1px;
+    background-color: #c0c0c0;
+    border-radius: 0.5px;
+}
+
+/* Control buttons: clean, rounded, and intuitive */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-shrink: 0;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #007aff;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 1px 6px rgba(0, 122, 255, 0.15);
+    text-transform: none;
+}
+
+.controls button:hover:not(:disabled) {
+    background-color: #005ce6;
+    transform: translateY(-0.5px);
+    box-shadow: 0 2px 8px rgba(0, 122, 255, 0.25);
+}
+
+.controls button:active:not(:disabled) {
+    transform: translateY(0);
+    background-color: #0040b3;
+    box-shadow: 0 1px 3px rgba(0, 122, 255, 0.1);
+}
+
+.controls button:disabled {
+    background-color: #ededed;
+    color: #b0b0b0;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 1;
+}
+
+/* Media queries for responsiveness, maintaining Apple's adaptive design */
+
+/* Larger screens (e.g., desktops, iPads landscape) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px;
+        padding: 40px;
+    }
+    .quote-text {
+        font-size: 1.6rem;
+    }
+    .quote-author {
+        font-size: 1.0rem;
+    }
+    .controls button {
+        padding: 12px 25px;
+        font-size: 1.0rem;
+    }
+}
+
+/* Medium screens (e.g., iPads portrait, larger phones landscape) */
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 20px;
+        width: 98%;
+        min-height: 150px;
+        max-height: 75vh;
+    }
+    .quote-text {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    .quote-author {
+        font-size: 0.75rem;
+    }
+    .controls button {
+        padding: 8px 18px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Small screens (e.g., iPhones portrait) */
+@media (max-width: 480px) {
+    .quote-text {
+        font-size: 0.95rem;
+    }
+    .quote-author {
+        font-size: 0.65rem;
+    }
+    .container {
+        padding: 15px;
+        min-height: 120px;
+        max-height: 70vh;
+    }
+    .controls {
+        flex-direction: row; /* Coloca los elementos en una fila */
+        gap: 8px;
+        justify-content: space-between; /* Separa los botones a los extremos */
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+    .controls button {
+        padding: 10px;
+        /* Se eliminan width: 100% y flex-grow para que se ajusten a su contenido y se separen */
+    }
+}
