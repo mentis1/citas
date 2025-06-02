@@ -5,7 +5,8 @@ html, body {
     height: 100%; /* Asegura que html y body ocupen toda la altura */
     margin: 0;
     padding: 0;
-    font-family: 'SF Pro Display', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* Apple-like font stack */
+    /* Fuente principal para el resto de la página */
+    font-family: 'SF Pro Display', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     color: #1d1d1f; /* Dark, legible text color */
     box-sizing: border-box;
     overflow-x: hidden; /* Prevent horizontal scroll */
@@ -118,45 +119,54 @@ html {
     padding: 30px; /* Reducido un poco el padding para pantallas pequeñas */
     max-width: 800px; /* Ancho máximo un poco más estrecho */
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco translúcido (85% de opacidad) */
-    backdrop-filter: blur(8px); /* Efecto de desenfoque detrás del contenedor, muy Apple */
-    -webkit-backdrop-filter: blur(8px); /* Para compatibilidad con Safari */
-    border-radius: 10px; /* Ligeramente menos redondeado */
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1); /* Sombra un poco más visible en fondo claro */
+    /* --- CAMBIOS PARA EL EFECTO DE PAPEL ANTIGUO --- */
+    background-image: url('old-paper-texture.jpg'); /* O una imagen de textura de papel antiguo */
+    background-size: cover;
+    background-color: #f8f0e3; /* Un color base crema/amarillento para el papel */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada para darle volumen */
+    border: 1px solid #d0c2b2; /* Borde sutil que combine con el papel */
+    /* --- FIN DE CAMBIOS PARA EL EFECTO DE PAPEL ANTIGUO --- */
+    backdrop-filter: none; /* Desactivar el blur ya que no encaja con el papel */
+    -webkit-backdrop-filter: none; /* Desactivar el blur para Safari */
+    border-radius: 5px; /* Un poco menos redondeado para un look más clásico */
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 180px; /* Reducido aún más para permitir más flexibilidad con textos cortos */
-    height: auto; /* CRÍTICO: Permite que la altura se ajuste al contenido */
-    max-height: 80vh; /* CRÍTICO: Una altura máxima para evitar que sea demasiado grande en textos excesivamente largos. Permite scroll interno. */
+    min-height: 180px;
+    height: auto;
+    max-height: 80vh;
     transition: all 0.3s ease-in-out;
-    margin-bottom: 25px; /* Espacio entre la cita y los controles */
-    border: 1px solid rgba(0, 0, 0, 0.08); /* Borde un poco más visible con el fondo translúcido */
-    flex-grow: 0; /* Asegura que no intente crecer para llenar espacio, sino que se ajuste a su contenido */
-    overflow-y: auto; /* CRÍTICO: Habilita el scroll vertical si el contenido excede el max-height */
+    margin-bottom: 25px;
+    flex-grow: 0;
+    overflow-y: auto;
 }
 
 /* Quote text style: bold, prominent, and clear */
 .quote-text {
-    font-size: 1.4rem;
+    /* --- CAMBIOS PARA LA TIPOGRAFÍA DE MÁQUINA DE ESCRIBIR --- */
+    font-family: 'Special Elite', 'Courier New', Courier, monospace; /* Nueva fuente de máquina de escribir */
+    font-size: 1.5rem; /* Ajustado para que se vea bien con la fuente de máquina de escribir */
     margin-bottom: 20px;
-    line-height: 1.35;
-    font-weight: 700;
-    color: #1d1d1f;
-    letter-spacing: -0.015em;
+    line-height: 1.5; /* Mayor interlineado para legibilidad */
+    font-weight: normal; /* 'Special Elite' no tiene variaciones de peso */
+    color: #333333; /* Un color de tinta más oscuro para el texto */
+    letter-spacing: 0.05em; /* Espaciado entre letras para simular la máquina de escribir */
     text-align: center;
+    /* --- FIN DE CAMBIOS PARA LA TIPOGRAFÍA DE MÁQUINA DE ESCRIBIR --- */
 }
 
 /* Author style: elegant, understated, and clearly separated */
 .quote-author {
     font-style: normal;
-    font-size: 0.85rem;
-    color: #4a4a4a;
-    margin-top: 12px;
+    font-size: 0.9rem; /* Ligeramente más grande */
+    color: #555555; /* Un tono de gris más suave */
+    margin-top: 15px; /* Más espacio */
     position: relative;
-    padding-top: 12px;
-    font-weight: 500;
+    padding-top: 15px; /* Más espacio */
+    font-weight: normal; /* Peso normal */
     text-align: center;
+    font-family: 'Special Elite', 'Courier New', Courier, monospace; /* También para el autor */
+    letter-spacing: 0.03em;
 }
 
 /* Decorative line separating quote and author, thin and elegant */
@@ -166,50 +176,50 @@ html {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 30px;
+    width: 40px; /* Un poco más larga */
     height: 1px;
-    background-color: #c0c0c0;
+    background-color: #a0a0a0; /* Un gris un poco más oscuro */
     border-radius: 0.5px;
 }
 
 /* Control buttons: clean, rounded, and intuitive */
 .controls {
     display: flex;
-    gap: 10px;
-    margin-top: 15px;
+    gap: 15px; /* Mayor espacio entre botones */
+    margin-top: 25px; /* Más espacio sobre los botones */
     flex-shrink: 0;
 }
 
 .controls button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+    padding: 12px 25px; /* Botones ligeramente más grandes */
+    font-size: 1.0rem; /* Fuente un poco más grande */
     border: none;
-    border-radius: 7px;
+    border-radius: 5px; /* Menos redondeado para combinar con el estilo de papel */
     cursor: pointer;
-    background-color: #177e51;
+    background-color: #5d4037; /* Un tono de marrón oscuro que combine con el papel antiguo */
     color: white;
     font-weight: 600;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
     transition: background-color 0.2s ease-in-out, transform 0.1s ease-out, box-shadow 0.2s ease-in-out;
-    box-shadow: 0 1px 6px rgba(0, 122, 255, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
     text-transform: none;
 }
 
 .controls button:hover:not(:disabled) {
-    background-color: #177e51;
-    transform: translateY(-0.5px);
-    box-shadow: 0 2px 8px rgba(0, 122, 255, 0.25);
+    background-color: #795548; /* Marrón ligeramente más claro al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación más notable */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra aún más pronunciada */
 }
 
 .controls button:active:not(:disabled) {
     transform: translateY(0);
-    background-color: #177e51;
-    box-shadow: 0 1px 3px rgba(0, 122, 255, 0.1);
+    background-color: #4e342e; /* Marrón más oscuro al presionar */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 .controls button:disabled {
-    background-color: #ededed;
-    color: #b0b0b0;
+    background-color: #d7ccc8; /* Tono de marrón claro para deshabilitado */
+    color: #a1887f; /* Texto más suave para deshabilitado */
     cursor: not-allowed;
     box-shadow: none;
     opacity: 1;
@@ -220,18 +230,18 @@ html {
 /* Larger screens (e.g., desktops, iPads landscape) */
 @media (min-width: 768px) {
     .container {
-        max-width: 600px;
+        max-width: 650px; /* Ligeramente más ancho */
         padding: 40px;
     }
     .quote-text {
-        font-size: 1.6rem;
+        font-size: 1.7rem; /* Ajustado */
     }
     .quote-author {
-        font-size: 1.0rem;
+        font-size: 1.1rem; /* Ajustado */
     }
     .controls button {
-        padding: 12px 25px;
-        font-size: 1.0rem;
+        padding: 14px 30px; /* Botones más grandes */
+        font-size: 1.1rem;
     }
 }
 
@@ -241,45 +251,45 @@ html {
         padding: 10px;
     }
     .container {
-        padding: 20px;
-        width: 98%;
-        min-height: 150px;
+        padding: 25px; /* Un poco más de padding */
+        width: 95%; /* Un poco más estrecho */
+        min-height: 160px;
         max-height: 75vh;
     }
     .quote-text {
-        font-size: 1.1rem;
-        margin-bottom: 15px;
+        font-size: 1.2rem; /* Ajustado */
+        margin-bottom: 18px;
     }
     .quote-author {
-        font-size: 0.75rem;
+        font-size: 0.85rem; /* Ajustado */
     }
     .controls button {
-        padding: 8px 18px;
-        font-size: 0.8rem;
+        padding: 10px 22px; /* Botones un poco más grandes */
+        font-size: 0.9rem;
     }
 }
 
 /* Small screens (e.g., iPhones portrait) */
 @media (max-width: 480px) {
     .quote-text {
-        font-size: 0.95rem;
+        font-size: 1rem; /* Ajustado */
     }
     .quote-author {
-        font-size: 0.65rem;
+        font-size: 0.7rem; /* Ajustado */
     }
     .container {
-        padding: 15px;
-        min-height: 120px;
+        padding: 20px; /* Un poco más de padding */
+        min-height: 130px;
         max-height: 70vh;
     }
     .controls {
-        flex-direction: row; /* Coloca los elementos en una fila */
-        gap: 8px;
-        justify-content: space-between; /* Separa los botones a los extremos */
-        width: 100%; /* Ocupa todo el ancho disponible */
+        flex-direction: row;
+        gap: 10px; /* Espacio ligeramente mayor */
+        justify-content: space-around; /* Distribuir uniformemente */
+        width: 100%;
     }
     .controls button {
-        padding: 10px;
-        /* Se eliminan width: 100% y flex-grow para que se ajusten a su contenido y se separen */
+        padding: 10px 15px; /* Ajustado para pantallas pequeñas */
+        font-size: 0.85rem;
     }
 }
